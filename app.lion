@@ -1,0 +1,15 @@
+fn rect (x, y) {
+    repeat ?x {
+        repeat ?y {
+            print "##" -end ""
+        }
+        print
+    }
+}
+
+fn main () {
+    print hello
+    rect 5 5
+}
+
+main
